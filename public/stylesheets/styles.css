@@ -5,3 +5,36 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+.beer{
+    display: flex;
+    justify-content: center;
+       align-items: center;
+  }
+  
+  .buttons{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    padding: 5px;
+  }
+  
+  .beerCards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  img{
+  
+    max-height: 40vh;
+    max-width: 12vw;
+  }
+  
+  .eachCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+  }
