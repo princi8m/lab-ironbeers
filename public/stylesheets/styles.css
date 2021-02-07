@@ -1,15 +1,18 @@
-/*
+/* 
 white: #f7f9f9;
 light-blue: #2081c3;
 dark-blue: #0a2c42;
 grey: #bfbfbf;
-font-family: Arial, Helvetica, sans-serif;
-*/
+font-family: Arial, Helvetica, sans-serif; */
 
+
+h2 {font-size: 1.2em;}
+p {font-size: 1.1em;}
 .beer{
-    display: flex;
+    display:inline
     justify-content: center;
        align-items: center;
+       margin-bottom: 100px;
   }
   
   .buttons{
@@ -38,3 +41,216 @@ font-family: Arial, Helvetica, sans-serif;
     flex-direction: column;
     align-content: center;
   }
+  
+  
+  .navlinks {
+    padding-left: 60px;
+}
+
+.list-inline-item {
+    font-size: 20px;
+}
+
+.list-inline-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.list-inline-item a:hover {
+    color: red;
+}
+
+.mifooter {
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #0E3142;
+    color: white;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+.mitext {
+    vertical-align: center;
+    padding-top: 15px;
+}
+
+.mitext:hover {
+    color: red;
+}
+
+.smiley {
+    color: red;
+}
+
+.beer-image {
+    padding-top: 80px;
+    width: 60%;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.buttons {
+    padding-top: 50px;
+    margin-right: 190px;
+    margin-bottom: 100px;
+}
+
+.mi-button {
+    padding: 7px 15px;
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.mi-button:hover {
+    color: red;
+}
+
+.index-padding {
+    padding-left: 50px;
+}
+
+.card-img-top {
+    width: auto;
+    max-height: 300px;
+}
+
+.card-row {
+    margin: 0;
+    padding-top: 50px;
+    height: 570px;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.randomb-container {
+  width: 80%;
+  padding-top: 80px;
+}
+
+.randomb-row {
+  
+}
+
+
+
+.partial-image {
+  max-height: 300px;
+}
+
+
+.minav {
+  background-color: #2081C3;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+}
+
+.navlinks {
+  padding-left: 60px;
+}
+
+.list-inline-item {
+  font-size: 20px;
+}
+
+.list-inline-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.list-inline-item a:hover {
+  color: red;
+}
+
+.mifooter {
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #0E3142;
+  color: white;
+  padding-left: 50px;
+  box-sizing: border-box;
+}
+
+.mitext {
+  vertical-align: center;
+  padding-top: 15px;
+}
+
+.mitext:hover {
+  color: red;
+}
+
+.smiley {
+  color: red;
+}
+
+
+.buttons {
+  padding-top: 50px;
+  margin-right: 190px;
+}
+
+.mi-button {
+  padding: 7px 15px;
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+.mi-button:hover {
+  color: red;
+}
+
+.index-padding {
+  padding-left: 50px;
+}
+
+.card-img-top {
+  width: auto;
+  max-height: 300px;
+}
+
+.card-row {
+  margin: 0;
+  padding-top: 50px;
+  height: 570px;
+}
+
+.card {
+  border: none;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.randomb-container {
+width: 80%;
+padding-top: 80px;
+}
+
+
+.partial-image {
+max-height: 300px;
+}

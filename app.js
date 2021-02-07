@@ -13,9 +13,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 // Index Page
-app.get('/', (req, res, next) => {
-  const data = {
-    title: "Home"
+app.get('/', (req, res, next) => {const data = {title: "Home"
   }
 res.render('index', data);
 });
@@ -23,10 +21,7 @@ res.render('index', data);
 
 // Beers Button
 app.get('/beers', (req, res, next) => {
-  punkAPI.getBeers().then(beers => {const data = {
-        title: "Beers",
-        beers: beers
-      }
+  punkAPI.getBeers().then(beers => {const data = { title: "Beers",  beers: beers }
       res.render('beers', data);
     })
     .catch(error => {
