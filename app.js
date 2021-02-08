@@ -29,7 +29,15 @@ app.get('/beers', (req, res, next) => {
     })
 });
 
-
+// Random Beers Button
+app.get('/random', (req, res, next) => {
+  punkAPI.getBeers().then(beers => {const data = { title: "Beers",  beers: beers }
+      res.render('randombeers', data);
+    })
+    .catch(error => {
+      console.log(error);
+    })
+});
 
 
 app.listen(3001, () => console.log("Server running at localhost:3001"));
